@@ -1,0 +1,13 @@
+● redis-server.service - Advanced key-value store
+     Loaded: loaded (/lib/systemd/system/redis-server.service; enabled; vendor preset: enabled)
+     Active: activating (start) since Sun 2021-10-10 18:35:13 CEST; 39s ago
+       Docs: http://redis.io/documentation,
+             man:redis-server(1)
+Cntrl PID: 5336 (redis-server)
+      Tasks: 4 (limit: 4544)
+     Memory: 6.6M
+     CGroup: /system.slice/redis-server.service
+             └─5336 /usr/bin/redis-server 127.0.0.1:0
+
+Oct 10 18:35:13 skynet systemd[1]: Stopped Advanced key-value store.
+Oct 10 18:35:13 skynet systemd[1]: Starting Advanced key-value store...
